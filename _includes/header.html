@@ -1,0 +1,135 @@
+  <body class="homepage">
+
+      <header id="header">
+          <div class="top-bar">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-8 col-xs-7">
+                          <div class="top-number"><p><i class="fa fa-phone-square"></i> {{site.telefone}}</p></div>
+                      </div>
+                      <div class="col-sm-4 col-xs-5">
+                         <div class="social">
+                              <ul class="social-share">
+                                  <li><a href="https://www.facebook.com/{{site.facebook}}/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                  <li><a href="javascript:alert ('Em Breve')"><i class="fa fa-twitter"></i></a></li>
+                                  <li><a href="javascript:alert ('Em Breve')"><i class="fa fa-linkedin"></i></a></li>
+                                  <li><a href="javascript:alert ('Em Breve')"><i class="fa fa-skype"></i></a></li>
+                              </ul>
+
+                         </div>
+                      </div>
+                  </div>
+              </div><!--/.container-->
+          </div><!--/.top-bar-->
+
+          <nav class="navbar navbar-inverse" role="banner">
+              <div class="container">
+                  <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                          <span class="sr-only">Example</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href=" {{ site.baseurl }}/ ">
+
+                          <img src="/assets/images/portfolio/logotipo.png" class="img-responsive">
+
+                      </a>
+                  </div>
+
+                  <div class="collapse navbar-collapse navbar-right">
+                      <ul class="nav navbar-nav">
+
+                          <li><a href="index.php">Ínicio</a></li>
+
+
+                          <li>
+                              <a href="servicos.html"><i class="fa fa-angle-right"></i> Serviços</a>
+
+                          </li>
+
+                          <li>
+                              <a href="historia.html"><i class="fa fa-angle-right"></i> Sobre Nós</a>
+
+                          </li>
+
+                          <li>
+                              <a href="contato.html"><i class="fa fa-angle-right"></i> Fale Conosco</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div><!--/.container-->
+          </nav><!--/nav-->
+
+      </header><!--/header-->
+
+      <section id="main-slider" class="no-margin">
+              <div class="carousel slide">
+                  <ol class="carousel-indicators">
+                      <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                      <li data-target="#main-slider" data-slide-to="1"></li>
+                      <li data-target="#main-slider" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+
+                      <div class="item active">
+                          <img src="/assets/images/slider/vabene-frota.jpg" class="img-responsive">
+                          <div class="container absolute">
+                              <div class="row slide-margin">
+                                  <div class="col-sm-6">
+                                      <div class="carousel-content">
+                                          <h1 class="animation animated-item-1">Leito Rodoviário, transfer, eventos, executivo</h1>
+                                          <h2 class="animation animated-item-2">Frota completa, confira nossos diferenciais</h2>
+
+                                      </div>
+                                  </div>
+
+
+
+                              </div>
+                          </div>
+                      </div><!--/.item-->
+
+                      <div class="item">
+                          <img src="/assets/images/slider/vabene-frota-2.jpg" class="img-responsive">
+                          <div class="container absolute">
+                              <div class="row slide-margin">
+                                  <div class="col-sm-6">
+                                      <div class="carousel-content">
+                                          <h1 class="animation animated-item-1">Experiência em fretamentos empresariais</h1>
+                                          <h2 class="animation animated-item-2">A Vabene é referência e qualidade</h2>
+
+                                      </div>
+                                  </div>
+
+
+
+                              </div>
+                          </div>
+                      </div><!--/.item-->
+
+                      <div class="item">
+                          <img src="/assets/images/slider/vabene-frota-interna-poltronas.jpg" class="img-responsive">
+                          <div class="container absolute">
+                              <div class="row slide-margin">
+                                  <div class="col-sm-6">
+                                      <div class="carousel-content">
+                                          <h1 class="animation animated-item-1">Viaje com conforto e a segurança</h1>
+                                          <h2 class="animation animated-item-2">Seja qual for seu destino, conforto está garantido!</h2>
+
+                                      </div>
+                                  </div>
+
+                              </div>
+                          </div>
+                      </div><!--/.item-->
+                  </div><!--/.carousel-inner-->
+              </div><!--/.carousel-->
+              <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+                  <i class="fa fa-chevron-left"></i>
+              </a>
+              <a class="next hidden-xs" href="#main-slider" data-slide="next">
+                  <i class="fa fa-chevron-right"></i>
+              </a>
+          </section><!--/#main-slider-->

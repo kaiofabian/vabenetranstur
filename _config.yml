@@ -1,0 +1,24 @@
+
+title: Vabene Transtur
+email: operacional@vabenetranstur.com
+telefone: (19) 3848-4302 | 3848-1681
+cnpj: 04.114.101/0001-44
+razaosocial: VABENE TRANSTUR LTDA ME
+rua: Rua São Paulo, 21
+bairro: Parque Brasil
+cidade: Louveira
+estado: SP
+cep: 13290-000
+description: >- # this means to ignore newlines until "baseurl:"
+  A VABENE TRANSTUR LTDA-ME foi fundada em 20 de Outubro de 2000, efetuando serviço de transportes escolar, fretamento continuo e eventual no município de Louveira SP, administrada por um jovem empreendedor e uma equipe competente, absorvendo novas idéias e sugestões, buscando sempre o aprimoramento continuo de seus serviços, treinamento dos seus funcionários, renovação da frota, conscientização do trabalho em equipe para oferecer um ótimo sistema de transporte, atendendo através do comprometimento com a qualidade do serviço prestado, a satisfação do seu cliente.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+facebook: vabenetranstur
+instagram: vabene.transtur
+permalink: /:title/
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap

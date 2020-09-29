@@ -1,0 +1,82 @@
+
+  <body class="homepage">
+
+      <header id="header">
+          <div class="top-bar">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-8 col-xs-7">
+                          <div class="top-number"><p><i class="fa fa-phone-square"></i> {{site.telefone}}</p></div>
+                      </div>
+                      <div class="col-sm-4 col-xs-5">
+                         <div class="social">
+                              <ul class="social-share">
+                                  <li><a href="https://www.facebook.com/{{site.facebook}}/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                  <li><a href="javascript:alert ('Em Breve')"><i class="fa fa-twitter"></i></a></li>
+                                  <li><a href="javascript:alert ('Em Breve')"><i class="fa fa-linkedin"></i></a></li>
+                                  <li><a href="javascript:alert ('Em Breve')"><i class="fa fa-skype"></i></a></li>
+                              </ul>
+
+                         </div>
+                      </div>
+                  </div>
+              </div><!--/.container-->
+          </div><!--/.top-bar-->
+
+          <nav class="navbar navbar-inverse" role="banner">
+              <div class="container">
+                  <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                          <span class="sr-only">Example</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="{{ site.baseurl }}/">
+
+                          <img src="../assets/images/portfolio/logotipo.png" class="img-responsive">
+
+                      </a>
+                  </div>
+
+                  <div class="collapse navbar-collapse navbar-right">
+                      <ul class="nav navbar-nav">
+
+                          <li><a href="{{ site.baseurl }}/">Ínicio</a></li>
+
+
+                          <li>
+                              <a href="servicos.html"><i class="fa fa-angle-right"></i> Serviços</a>
+
+                          </li>
+
+                          <li>
+                              <a href="historia.html"><i class="fa fa-angle-right"></i> Sobre Nós</a>
+
+                          </li>
+
+                          <li>
+                              <a href="contato.html"><i class="fa fa-angle-right"></i> Fale Conosco</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div><!--/.container-->
+          </nav><!--/nav-->
+
+      </header><!--/header-->
+
+
+  <div class="jumbotron jumbotron-fluid intro mt-10">
+    <div class="container">
+      <div class="row">
+
+        <div class="col text-center wow fadeInDown">
+          <h2>{{ page.title }}</h2>
+          <p class="lead">{{ page.description }}</p>
+          <time>{{ page.date | date:"%b, %-d/%Y" }} </time>
+        </div>
+
+      </div>
+    </div>
+</div>
+</header>
