@@ -197,6 +197,18 @@ body > section {
   margin: 0
 }
 
+a.whatsapp-icon {
+  color: #FFFFFF;
+  background-color: #080086;
+  padding: 5px;
+  border-radius: 6px;
+
+}
+
+a.whatsapp-icon:hover{
+  background-color: #000000;
+}
+
 .social{
   text-align: center;
   margin-top: 10px;
