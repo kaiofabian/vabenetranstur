@@ -2581,3 +2581,9 @@ shortcodes page css
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: #EC363E;
 }
+
+@media ( max-width: 425px ) {
+.media-body{
+  text-align:center;
+  }
+}
