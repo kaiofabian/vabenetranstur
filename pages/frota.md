@@ -9,9 +9,9 @@ description: 'Confira nossos diferenciais e galeria de imagens com nossos transp
   <div class="cointaner">
 
     <div class="col-md-12" style="margin:10px 0;">
-      <div class="col-md-8">
-        <h2 style="color:#000000"> Titulo do onibus aqui</h2>
-          <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+      <div class="col-md-8 sessao-frota">
+        <h2 style="color:#000000; float:left;"> Titulo do onibus aqui</h2>
+          <p style="float:left;">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
 
           <!-- configuração tamanho do boxe -->
           <div class="col-md-4">
@@ -67,8 +67,8 @@ description: 'Confira nossos diferenciais e galeria de imagens com nossos transp
 
       <div class="col-md-12" style="margin:10px 0;">
         <div class="col-md-8">
-          <h2 style="color:#000000"> Titulo do onibus aqui</h2>
-            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+          <h2 style="color:#000000; float:left;"> Titulo do onibus aqui</h2>
+            <p style="float:left;">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
 
             <!-- configuração tamanho do boxe -->
             <div class="col-md-4">
@@ -125,8 +125,8 @@ description: 'Confira nossos diferenciais e galeria de imagens com nossos transp
 
         <div class="col-md-12" style="margin:10px 0;">
           <div class="col-md-8">
-            <h2 style="color:#000000"> Titulo do onibus aqui</h2>
-              <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+            <h2 style="color:#000000; float:left;"> Titulo do onibus aqui</h2>
+              <p style="float:left;">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
 
               <!-- configuração tamanho do boxe -->
               <div class="col-md-4">
@@ -181,9 +181,10 @@ description: 'Confira nossos diferenciais e galeria de imagens com nossos transp
       </div> <!-- fecha col-md-12 -->
 
       <div class="col-md-12" style="margin:10px 0;">
+
         <div class="col-md-8">
-          <h2 style="color:#000000"> Titulo do onibus aqui</h2>
-            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+          <h2 style="color:#000000; float:left;"> Titulo do onibus aqui</h2>
+            <p style="float:left;">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
 
             <!-- configuração tamanho do boxe -->
             <div class="col-md-4">

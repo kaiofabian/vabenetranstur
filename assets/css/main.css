@@ -2585,6 +2585,7 @@ shortcodes page css
 ul.icones-bus-interior{
   margin:0;
   padding: 0;
+  float: left;
 }
 
 ul.icones-bus-interior li{
@@ -2595,4 +2596,8 @@ ul.icones-bus-interior li{
   border-radius: 0px;
   padding: 5px;
   text-align: center;
+}
+
+.sessao-frota{
+  margin:10px 0;
 }
