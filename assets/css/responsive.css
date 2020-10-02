@@ -336,3 +336,9 @@
 
 
 }
+
+@media ( max-width: 425px ) {
+.media-body{
+  text-align:center;
+  }
+}

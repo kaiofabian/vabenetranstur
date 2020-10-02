@@ -4,86 +4,243 @@ permalink: "/frota.html"
 title: "Frota completa para você"
 description: 'Confira nossos diferenciais e galeria de imagens com nossos transportes para sua empresa.'
 ---
-<section id="contact-info">
+<div class="row">
 
-    <div class="gmap-area">
-        <div class="container">
-            <div class="row">
+  <div class="cointaner">
 
-                <div class="col-sm-6 map-content">
-                    <ul class="row">
-                        <li class="col-sm-6">
-                            <address>
-                                <h5>Vabene Transtur</h5>
-                                <p>CNPJ: {{site.cnpj}}<br>
-                                 {{site.rua}} - {{site.bairro}} <br>
-                                Cidade: {{site.cidade}}/{{site.estado}} <br>
-                                CEP:{{site.cep}}<br>
-                                {{site.email}}</p>
-                            </address>
-                        </li>                            
-                    </ul>
-                </div>
+    <div class="col-md-12" style="margin:10px 0;">
+      <div class="col-md-8">
+        <h2 style="color:#000000"> Titulo do onibus aqui</h2>
+          <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
 
-                <div class="col-sm-6 text-center">
-                    <div class="gmap">
-                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.048072888577!2d-46.98045138503089!3d-23.095335984916215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf2e01a976cdc7%3A0xfd63a76d21890a23!2sR.+S%C3%A3o+Paulo%2C+21+-+Parque+Brasil%2C+Louveira+-+SP%2C+13290-000!5e0!3m2!1spt-BR!2sbr!4v1449339630702"></iframe>
+          <!-- configuração tamanho do boxe -->
+          <div class="col-md-4">
+            <!-- boxe imagem tamanho menor -->
+            <div class="recent-work-wrap">
+                <img class="img-responsive" src="assets/images/portfolio/recent/item1.png" alt="">
+                <!-- efeito overlay modal imagem tamanho maior -->
+                <div class="overlay">
+                   <div class="recent-work-inner">
+                        <a class="preview center" href="assets/images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
                     </div>
-                </div>
+                </div> <!-- final efeito modal imagem tamanho maior -->
+            </div> <!-- final boxe imagem tamanho menor -->
+          </div> <!-- final configuração tamanho do boxe -->
 
+          <!-- configuração tamanho do boxe -->
+          <div class="col-md-4">
+            <!-- boxe imagem tamanho menor -->
+            <div class="recent-work-wrap">
+                <img class="img-responsive" src="assets/images/portfolio/recent/item2.png" alt="">
+                <!-- efeito overlay modal imagem tamanho maior -->
+                <div class="overlay">
+                   <div class="recent-work-inner">
+                        <a class="preview center" href="assets/images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
+                    </div>
+                </div> <!-- final efeito modal imagem tamanho maior -->
+            </div> <!-- final boxe imagem tamanho menor -->
+          </div> <!-- final configuração tamanho do boxe -->
 
-            </div>
+      </div>
+
+      <!-- descrição do onibus -->
+      <div class="col-md-4">
+        <h2 style="color:#000000;">Descrição</h2>
+        <ul>
+          <li> 36 lugares </li>
+          <li> Banheiro </li>
+          <li>Televisão </li>
+          <li>Wi-fi</li>
+        </ul>
+
+        <!-- icones descritivos do onibus -->
+        <ul class="icones-bus-interior">
+          <li><i class="fa fa-play fa-2x"></i></li>
+          <li><i class="fas fa-toilet fa-2x"></i></li>
+          <li><i class="fas fa-tv fa-2x"></i></li>
+          <li><i class="fas fa-music fa-2x"></i></li>
+          <li><i class="fas fa-wifi fa-2x"></i></li>
+        </ul>
+      </div> <!-- fim descrição do onibus -->
+
+  </div> <!-- fecha col-md-12 -->
+
+      <div class="col-md-12" style="margin:10px 0;">
+        <div class="col-md-8">
+          <h2 style="color:#000000"> Titulo do onibus aqui</h2>
+            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+
+            <!-- configuração tamanho do boxe -->
+            <div class="col-md-4">
+              <!-- boxe imagem tamanho menor -->
+              <div class="recent-work-wrap">
+                  <img class="img-responsive" src="assets/images/portfolio/recent/item3.png" alt="">
+                  <!-- efeito overlay modal imagem tamanho maior -->
+                  <div class="overlay">
+                     <div class="recent-work-inner">
+                          <a class="preview center" href="assets/images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
+                      </div>
+                  </div> <!-- final efeito modal imagem tamanho maior -->
+              </div> <!-- final boxe imagem tamanho menor -->
+            </div> <!-- final configuração tamanho do boxe -->
+
+            <!-- configuração tamanho do boxe -->
+            <div class="col-md-4">
+              <!-- boxe imagem tamanho menor -->
+              <div class="recent-work-wrap">
+                  <img class="img-responsive" src="assets/images/portfolio/recent/item4.png" alt="">
+                  <!-- efeito overlay modal imagem tamanho maior -->
+                  <div class="overlay">
+                     <div class="recent-work-inner">
+                          <a class="preview center" href="assets/images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
+                      </div>
+                  </div> <!-- final efeito modal imagem tamanho maior -->
+              </div> <!-- final boxe imagem tamanho menor -->
+            </div> <!-- final configuração tamanho do boxe -->
+
         </div>
-    </div>
-</section>  <!--/gmap_area -->
+
+        <!-- descrição do onibus -->
+        <div class="col-md-4">
+          <h2 style="color:#000000;">Descrição</h2>
+          <ul>
+            <li> 36 lugares </li>
+            <li> Banheiro </li>
+            <li>Televisão </li>
+            <li>Wi-fi</li>
+          </ul>
+
+          <!-- icones descritivos do onibus -->
+          <ul class="icones-bus-interior">
+            <li><i class="fa fa-play fa-2x"></i></li>
+            <li><i class="fas fa-toilet fa-2x"></i></li>
+            <li><i class="fas fa-tv fa-2x"></i></li>
+            <li><i class="fas fa-music fa-2x"></i></li>
+            <li><i class="fas fa-wifi fa-2x"></i></li>
+          </ul>
+        </div> <!-- fim descrição do onibus -->
+
+    </div> <!-- fecha col-md-12 -->
+
+
+        <div class="col-md-12" style="margin:10px 0;">
+          <div class="col-md-8">
+            <h2 style="color:#000000"> Titulo do onibus aqui</h2>
+              <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+
+              <!-- configuração tamanho do boxe -->
+              <div class="col-md-4">
+                <!-- boxe imagem tamanho menor -->
+                <div class="recent-work-wrap">
+                    <img class="img-responsive" src="assets/images/portfolio/recent/item5.png" alt="">
+                    <!-- efeito overlay modal imagem tamanho maior -->
+                    <div class="overlay">
+                       <div class="recent-work-inner">
+                            <a class="preview center" href="assets/images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
+                        </div>
+                    </div> <!-- final efeito modal imagem tamanho maior -->
+                </div> <!-- final boxe imagem tamanho menor -->
+              </div> <!-- final configuração tamanho do boxe -->
+
+              <!-- configuração tamanho do boxe -->
+              <div class="col-md-4">
+                <!-- boxe imagem tamanho menor -->
+                <div class="recent-work-wrap">
+                    <img class="img-responsive" src="assets/images/portfolio/recent/item6.png" alt="">
+                    <!-- efeito overlay modal imagem tamanho maior -->
+                    <div class="overlay">
+                       <div class="recent-work-inner">
+                            <a class="preview center" href="assets/images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
+                        </div>
+                    </div> <!-- final efeito modal imagem tamanho maior -->
+                </div> <!-- final boxe imagem tamanho menor -->
+              </div> <!-- final configuração tamanho do boxe -->
+
+          </div>
+
+          <!-- descrição do onibus -->
+          <div class="col-md-4">
+            <h2 style="color:#000000;">Descrição</h2>
+            <ul>
+              <li> 36 lugares </li>
+              <li> Banheiro </li>
+              <li>Televisão </li>
+              <li>Wi-fi</li>
+            </ul>
+
+            <!-- icones descritivos do onibus -->
+            <ul class="icones-bus-interior">
+              <li><i class="fa fa-play fa-2x"></i></li>
+              <li><i class="fas fa-toilet fa-2x"></i></li>
+              <li><i class="fas fa-tv fa-2x"></i></li>
+              <li><i class="fas fa-music fa-2x"></i></li>
+              <li><i class="fas fa-wifi fa-2x"></i></li>
+            </ul>
+          </div> <!-- fim descrição do onibus -->
+
+      </div> <!-- fecha col-md-12 -->
+
+      <div class="col-md-12" style="margin:10px 0;">
+        <div class="col-md-8">
+          <h2 style="color:#000000"> Titulo do onibus aqui</h2>
+            <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
+
+            <!-- configuração tamanho do boxe -->
+            <div class="col-md-4">
+              <!-- boxe imagem tamanho menor -->
+              <div class="recent-work-wrap">
+                  <img class="img-responsive" src="assets/images/portfolio/recent/item7.png" alt="">
+                  <!-- efeito overlay modal imagem tamanho maior -->
+                  <div class="overlay">
+                     <div class="recent-work-inner">
+                          <a class="preview center" href="assets/images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
+                      </div>
+                  </div> <!-- final efeito modal imagem tamanho maior -->
+              </div> <!-- final boxe imagem tamanho menor -->
+            </div> <!-- final configuração tamanho do boxe -->
+
+            <!-- configuração tamanho do boxe -->
+            <div class="col-md-4">
+              <!-- boxe imagem tamanho menor -->
+              <div class="recent-work-wrap">
+                  <img class="img-responsive" src="assets/images/portfolio/recent/item8.png" alt="">
+                  <!-- efeito overlay modal imagem tamanho maior -->
+                  <div class="overlay">
+                     <div class="recent-work-inner">
+                          <a class="preview center" href="assets/images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
+                      </div>
+                  </div> <!-- final efeito modal imagem tamanho maior -->
+              </div> <!-- final boxe imagem tamanho menor -->
+            </div> <!-- final configuração tamanho do boxe -->
+
+        </div>
+
+        <!-- descrição do onibus -->
+        <div class="col-md-4">
+          <h2 style="color:#000000;">Descrição</h2>
+          <ul>
+            <li> 36 lugares </li>
+            <li> Banheiro </li>
+            <li>Televisão </li>
+            <li>Wi-fi</li>
+          </ul>
+
+          <!-- icones descritivos do onibus -->
+          <ul class="icones-bus-interior">
+            <li><i class="fa fa-play fa-2x"></i></li>
+            <li><i class="fas fa-toilet fa-2x"></i></li>
+            <li><i class="fas fa-tv fa-2x"></i></li>
+            <li><i class="fas fa-music fa-2x"></i></li>
+            <li><i class="fas fa-wifi fa-2x"></i></li>
+          </ul>
+        </div> <!-- fim descrição do onibus -->
+
+    </div> <!-- fecha col-md-12 -->
+
+
+
+</div> <!-- fecha container -->
+</div> <!-- fecha row -->
+
+
 <br>
-<section id="contact-page">
-    <div class="container">
-        <div class="center">        
-            <h2>Envie sua mensagem</h2>
-            <p class="lead">Entre em contato conosco pelo formulário abaixo</p>
-        </div>
-        <div class="row contact-wrap">
-            <div class="status alert alert-success" style="display: none"></div>
-
-
-             <form name="sentMessage" id="contactForm" method="post" action="mail/contact_me.php" novalidate>
-                    <div class="row">
-                        <div class="col-md-5 col-sm-offset-1">
-                            <div class="form-group">
-                                <label>Nome Completo *</label>
-                                <input type="text" class="form-control" id="name" required data-validation-required-message="Nome Completo">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                <label>Email *</label>
-                                <input type="email" class="form-control" id="email" required data-validation-required-message="Email">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="form-group">
-                                 <label>Telefone / Celular *</label>
-                                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Telefone/Celular">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="col-md-5">
-                            <div class="form-group">
-                                <label>Mensagem *</label>
-                                <textarea class="form-control" id="message" required data-validation-required-message="Escreva sua mensagem" rows="8"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="col-lg-12 text-center">
-                            <div id="success"></div>
-                            <button type="submit" class="btn btn-primary btn-lg">Enviar Mensagem</button>
-                        </div>
-                    </div>
-                </form>
-
-
-<br />
-
-        </div><!--/.row-->
-    </div><!--/.container-->
-</section><!--/#contact-page-->

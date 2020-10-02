@@ -2582,8 +2582,17 @@ shortcodes page css
     background-color: #EC363E;
 }
 
-@media ( max-width: 425px ) {
-.media-body{
-  text-align:center;
-  }
+ul.icones-bus-interior{
+  margin:0;
+  padding: 0;
+}
+
+ul.icones-bus-interior li{
+  list-style: none;
+  float: left;
+  margin-left: 15px;
+  margin-top:5px;
+  border-radius: 0px;
+  padding: 5px;
+  text-align: center;
 }
