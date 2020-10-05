@@ -2624,3 +2624,11 @@ a .botoes-vabene1:hover, a .botoes-vabene2:hover {
   background-color: green;
   color: #FFFFFF;
 }
+
+.rodape-atribuicoes{
+  font-size: 9px;
+}
+
+.rodape-atribuicoes a{
+  color: #FFFFFF;
+}
