@@ -239,6 +239,16 @@ description: 'Confira nossos diferenciais e galeria de imagens com nossos transp
     </div> <!-- fecha col-md-12 -->
 
 
+    <div class="col-md-12 col-sm-12 text-center">
+          <h2>Contrate a Vabene</h2>
+          <p>Selecione uma das opções</p>
+
+          <a href="javascript:alert('Em Breve')"><button type="submit" class="btn botoes-vabene2 botoes">Solicitar Orçamento</button></a>
+
+          <br />
+    </div>
+
+
 
 </div> <!-- fecha container -->
 </div> <!-- fecha row -->

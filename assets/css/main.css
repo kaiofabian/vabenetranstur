@@ -2584,7 +2584,6 @@ shortcodes page css
 
 ul.icones-bus-interior{
   margin:0;
-  padding: 0;
   float: left;
 }
 
@@ -2600,4 +2599,28 @@ ul.icones-bus-interior li{
 
 .sessao-frota{
   margin: 15px 0 10px 0;
+}
+
+.img-excursoes{
+  max-width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.botoes{
+  height: 50px;
+  margin: 15px 0;
+}
+
+.botoes-vabene1{
+  background-color: #3F4293;
+  color: #FFFFFF;
+}
+a .botoes-vabene1:hover, a .botoes-vabene2:hover {
+  color: #FFFFFF;
+}
+
+.botoes-vabene2{
+  background-color: green;
+  color: #FFFFFF;
 }
