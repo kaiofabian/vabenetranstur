@@ -103,7 +103,7 @@ description: 'Confira nossos diferenciais e galeria de imagens com nossos transp
         <div class="col-md-4">
           <h2 style="color:#000000;">Descrição</h2>
           <ul>
-            <li> 37 lugares </li>
+            <li> 47 lugares </li>
             <li> Ar-condicionado </li>
           </ul>
 
