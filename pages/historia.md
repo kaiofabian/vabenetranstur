@@ -8,8 +8,13 @@ description: 'Fundada em 20 de Outubro de 2000'
         <div class="container">
 			<div class="wow fadeInDown">
 				<h2>Nossa História</h2>
-				<p class="lead">A VABENE TRANSTUR LTDA-ME vem efetuando serviços de transportes escolar, fretamento continuo e eventual no município de Louveira SP, administrada por um jovem empreendedor e uma equipe competente, absorvendo novas idéias e sugestões, buscando sempre o aprimoramento continuo de seus serviços, treinamento dos seus funcionários, renovação da frota, conscientização do trabalho em equipe para oferecer um ótimo sistema de transporte, atendendo através do comprometimento com a qualidade do serviço prestado, a satisfação do seu cliente.
-                </p>
+
+        <p class="lead">A Vabene se iniciou no ano de 2000 e ao longo dos anos vem superando os desafios, buscando formas de aperfeiçoamento e inovações em soluções personalizadas para mantermos a qualidade e satisfação de todos os nossos clientes!</p>
+
+        <p class="lead">Tecnicamente nossa gestão mescla boas práticas da Administração e da Qualidade. Na prática nomeamos estas frentes como Programa SOMOS + VABENE. Proporcionando soluções em Transporte de Pessoas nas modalidades de Fretamento, Turismo, Transporte Escolar, Traslados e Transporte de Executivos, sempre atentos à legislação e às boas práticas de mobilidade. Nosso compromisso é com a segurança, pontualidade e personalização de nossos serviços, tudo isso, traduzidos na mais Alta Qualidade reconhecida por nossos Clientes e pela Comunidade. </p>
+
+        <p class="lead">Nossa frota é renovada constantemente e nossos Valores cada vez mais aplicados e conhecidos: Vitória; Acreditar; Bravura; Equipe; Nobreza e; Excelência. Faça parte de nossa história! Esperamos você e sua Equipe como PARCEIROS! Certamente agregaremos ao seu Sucesso! SOMOS + VABENE.</p>
+
 			</div>
 
 
