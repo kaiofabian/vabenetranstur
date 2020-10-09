@@ -10,7 +10,7 @@ description: 'Confira nossos diferenciais e galeria de imagens com nossos transp
     <p style="text-align:justify">Com uma frota própria de ônibus modernos a <b style="font-size:18px;">Vabene Transtur</b> vem se destacando como uma das melhores empresa da região. Garantindo mais conforto, pontualidade e segurança através de seus profissionais treinados, atendimento 24h, manutenção rigorosa em seus veículos que assegurar total capacidade técnica mantendo assim segurança em todas as viagens realizadas.</p>
     <div class="row" style="margin:10px 0;">
       <div class="col-md-8 sessao-frota">
-        <h2 style="color:#000000;"> Ônibus Executivo 46 lugares</h2>
+        <h2 style="color:#000000;"> Ônibus Executivo</h2>
 
           <!-- configuração tamanho do boxe -->
           <div class="col-md-4">
@@ -66,7 +66,7 @@ description: 'Confira nossos diferenciais e galeria de imagens com nossos transp
 
       <div class="col-md-12" style="margin:10px 0;">
         <div class="col-md-8">
-          <h2 style="color:#000000;"> Ônibus convencional 47 lugares</h2>
+          <h2 style="color:#000000;"> Ônibus convencional</h2>
 
 
             <!-- configuração tamanho do boxe -->
@@ -118,7 +118,7 @@ description: 'Confira nossos diferenciais e galeria de imagens com nossos transp
 
         <div class="col-md-12" style="margin:10px 0;">
           <div class="col-md-8">
-            <h2 style="color:#000000;"> Micro ônibus Executivo 28 lugares</h2>
+            <h2 style="color:#000000;"> Micro ônibus Executivo</h2>
 
                         <!-- configuração tamanho do boxe -->
                         <div class="col-md-4">
