@@ -342,3 +342,9 @@
   text-align:center;
   }
 }
+
+@media ( max-width: 425px ) {
+.desc-sessao p, .desc-sessao h1{
+  text-align:center;
+  }
+}

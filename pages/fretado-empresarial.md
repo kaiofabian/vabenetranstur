@@ -1,0 +1,96 @@
+---
+layout: page
+permalink: "/fretado-empresarial.html"
+title: "Vabene Empresas"
+description: 'Horários flexíveis para melhor atender a sua empresa!'
+---
+<div class="row">
+  <div class="cointaner-fluid img-background1-fretamento  wow fadeInDown">
+    <div class="img-background2  wow fadeInDown">
+
+      <div class="col-md-6 col-sm-12 desc-sessao wow fadeInDown">
+
+        <h1>Fretamento empresarial</h1>
+        <p>Otimização e facilidade para implementação e gestão de transporte de funcionários.</p>
+
+        <a href="#vantagens"><button type="button" class="btn btn-warning" style="margin:10px; 0 10px 0;"> Veja as vantagens </button></a>
+
+      </div>  
+
+      <div class="col-md-6 col-sm-12 formularios-fundo wow fadeInDown">
+
+      <h2>Entre em contato conosco!</h2>
+
+      <form action="/action_page.php">
+        <div class="form-group col-md-12 col-xs-12">
+          <input type="text" class="form-control" id="pwd" placeholder="Nome completo">
+        </div>
+
+        <div class="form-group col-md-6 col-xs-12">
+          <input type="text" class="form-control" id="pwd" placeholder="Email corporativo">
+        </div>
+
+        <div class="form-group col-md-6 col-xs-12">
+          <input type="text" class="form-control" id="pwd" placeholder="Telefone">
+        </div>
+
+        <div class="form-group col-md-6 col-xs-12">
+          <input type="text" class="form-control" id="pwd" placeholder="Nome da empresa">
+        </div>
+
+        <div class="form-group col-md-6 col-xs-12">
+          <input type="text" class="form-control" id="pwd" placeholder="Quantidade de Funcionários">
+        </div>
+
+        <div class="form-group col-md-12 col-xs-12">
+        <textarea class="form-control" rows="5" id="comment" placeholder="Digite sobre sua necessidade"></textarea>
+        </div>
+
+        <div class="col-md-12 text-center">
+          <button type="button" class="btn btn-primary btt-orcamento">Solicitar contato</button>
+        </div>
+
+      </form>
+
+      </div>
+
+    </div>  
+  </div>
+</div>
+
+
+<div class="row text-center wow fadeInDown" id="vantagens">
+
+  <h2 style="color:#000; margin-top:30px;">O futuro do fretamento empresarial</h2>
+  <p>Não deixe para depois consulte nossa equipe!</p>
+
+  <div class="col-md-4 col-sm-6 col-xs-12 text-center boxes">
+    <i class="fas fa-user-tie fa-4x"></i>
+    <h3>Profissionais qualificados</h3>
+  </div>
+
+  <div class="col-md-4 col-sm-6 col-xs-12 text-center boxes">
+    <i class="fas fa-route fa-4x"></i>
+    <h3>Otimização das rotas</h3>
+  </div>
+
+  <div class="col-md-4 col-sm-6 col-xs-12 text-center boxes">
+    <i class="fa fa-comment fa-4x"></i>
+    <h3>Atendimento personalizados</h3>
+  </div>
+
+  <div class="col-md-4 col-sm-6 col-xs-12 text-center boxes">
+    <i class="fa fa-shield-alt fa-4x"></i>
+    <h3>Viajar com segurança</h3>
+  </div>
+
+  <div class="col-md-4 col-sm-6 col-xs-12 text-center boxes">
+    <i class="fa fa-thumbs-up fa-4x"></i>
+    <h3>Viaje com corforto</h3>
+  </div>
+
+  <div class="col-md-4 col-sm-6 col-xs-12 text-center boxes">
+    <i class="fa fa-history fa-4x"></i>
+    <h3>Horários flexíveis</h3>
+  </div>
+</div>

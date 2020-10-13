@@ -29,7 +29,7 @@ h1{
 }
 
 h2{
-  font-size: 20px;
+  font-size: 25px;
 }
 
 h3{
@@ -1975,7 +1975,7 @@ address p {
 .form-group .form-control {
   padding: 7px 12px;
   background: #FBFBFB;
-  border-color:#f2f2f2;
+  border: 1px solid #CCC;
   box-shadow: none;
 
 }
@@ -2662,4 +2662,59 @@ a .botoes-vabene1:hover, a .botoes-vabene2:hover {
     -ms-animation: pulse 1.25s infinite cubic-bezier(.16,0,0,1);
     animation: pulse 1.25s infinite cubic-bezier(.16,0,0,1);
 
+}
+
+.img-background1-fretamento{
+  background: url("/assets/images/business.jpg") no-repeat;
+  display: -webkit-inline-box;
+  width: 100%;
+  height: 100%;
+  font-family: 'Rubik', sans-serif;
+
+}
+
+.img-background2{
+  background: rgba(0, 0, 0, 0.6);
+  color: #FFF;
+  padding: 5px;
+}
+
+.desc-sessao h1{
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffd601;
+}
+.desc-sessao p{
+  color: #FFFFFF;
+  font-family: 'Rubik', sans-serif;
+  font-size: 29px;
+  line-height: 1.9;
+  font-weight: 100;
+}
+
+.input-group{
+  margin: 10px 0;
+}
+
+.formularios-fundo{
+  background: #FFFFFF;
+  border-radius:3px;
+  padding: 10px;
+}
+
+.formularios-fundo h2{
+  padding-left: 15px;
+}
+
+.formularios-fundo p{
+  color: #000;
+}
+
+.btt-orcamento{
+  width: 100%;
+  border-radius: 6px;
+}
+
+.boxes{
+  margin: 20px 0 20px 0;
 }
