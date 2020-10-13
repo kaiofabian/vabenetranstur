@@ -2665,7 +2665,7 @@ a .botoes-vabene1:hover, a .botoes-vabene2:hover {
 }
 
 .img-background1-fretamento{
-  background: url("../assets/images/business.jpg") no-repeat;
+  background: url("../../assets/images/business.jpg") no-repeat;
   display: -webkit-inline-box;
   width: 100%;
   height: 100%;
