@@ -344,7 +344,7 @@
 }
 
 @media ( max-width: 425px ) {
-.desc-sessao p, .desc-sessao h1{
+.desc-sessao p, .desc-sessao h1, .saiba-mais{
   text-align:center;
   }
 }

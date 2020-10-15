@@ -825,7 +825,7 @@ input.search-form:hover {
 }
 
 .panel-group .panel+.panel{
-  margin-top: 0;
+  margin-top: 5px;
   border-top: 1px solid #d9d9d9;
 }
 
@@ -2690,6 +2690,7 @@ a .botoes-vabene1:hover, a .botoes-vabene2:hover {
   font-size: 29px;
   line-height: 1.9;
   font-weight: 100;
+  text-align: left;
 }
 
 .input-group{
@@ -2717,4 +2718,13 @@ a .botoes-vabene1:hover, a .botoes-vabene2:hover {
 
 .boxes{
   margin: 20px 0 20px 0;
+}
+
+.jumbotron{
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
+  color: #FFFFFF;
 }
