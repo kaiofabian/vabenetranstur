@@ -92,15 +92,7 @@ description: 'Conheça nossos fretados & traslados feitos para você!'
 
 </div>
 
-<div class="col-md-12 col-sm-12 text-center" style="margin-top:15px;">
-      <h2>Contrate a Vabene</h2>
-      <p>Selecione uma das opções</p>
-
-      <a href="frota.html"><button type="submit" class="btn botoes-vabene1 botoes">Frota completa</button></a>
-      <a href="javascript:alert('Em Breve')"><button type="submit" class="btn botoes-vabene2 botoes">Solicitar Orçamento</button></a>
-
-      <br />
-</div>
+{% include botoes.html %}
 
 
 </div> <!-- fecha row -->

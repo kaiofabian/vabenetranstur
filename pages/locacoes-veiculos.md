@@ -5,3 +5,4 @@ title: "Locações de veículos"
 description: 'Deseja alugar nossos veículos?'
 ---
 {% include locacoes-veiculos.html %}
+{% include botoes.html %}
