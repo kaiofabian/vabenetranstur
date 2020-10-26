@@ -12,6 +12,10 @@ body {
   line-height: 22px;
 }
 
+p {
+  line-height: 30px;
+}
+
 h1,
 h2,
 h3,
@@ -63,7 +67,7 @@ hr {
 
 .btn-primary {
   padding: 8px 20px;
-  background: #c52d2f;
+  background: #3F4293;
   color: #fff;
   border-radius: 4px;
   border:none;
@@ -2727,4 +2731,34 @@ a .botoes-vabene1:hover, a .botoes-vabene2:hover {
 
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
   color: #FFFFFF;
+}
+
+.card {
+  background-color: #f2f2f2;
+  margin-top: 10px;
+  float: left;
+  display: inline-table;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.card-img-top{
+  background-color: #dadada;
+  padding: 5px;
+  width:250px;
+  height:180px;
+  margin: auto;
+}
+
+.card-text {
+  height: 100px;
+  line-height: 2.0;
+}
+
+.btn-destinos{
+  text-align: center;
+}
+
+.card-body{
+  padding: 0 5px;
 }

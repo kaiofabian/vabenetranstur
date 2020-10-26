@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Belém"
-date:   2020-09-26 12:21:04 -0300
+title:  "Pipa, Rio Grande do Norte"
+date:   2020-09-29 12:21:04 -0300
 categories: jekyll update
-description: 'História, mercado, artesanato, rio e teatro.'
-image: /assets/images/park.png  
+description: 'O litoral do Rio Grande do Norte é cinematográfico, com falésias e o mar de cores intensas. '
+image: /assets/images/test.png
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
