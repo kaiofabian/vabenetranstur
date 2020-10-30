@@ -23,6 +23,27 @@ description: 'Conheça nossos fretados & traslados feitos para você!'
       </div>
     </div>
   </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingSix">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+          <i class="fas fa-arrow-right"></i> Viagens e Excursões
+        </a>
+      </h4>
+    </div>
+    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+      <div class="panel-body">
+
+      {% include viagens-e-excursoes.html %}
+      <div class="col-md-8 col-sm-12 text-center" style="margin-top:15px;">
+      {% include formulario-viagens-e-excursoes.html %}
+      </div>
+
+      </div>
+    </div>
+  </div>
+
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingTwo">
       <h4 class="panel-title">
