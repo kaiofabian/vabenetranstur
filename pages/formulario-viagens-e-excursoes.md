@@ -11,7 +11,7 @@ endpoint: 4fa54e79-da38-4579-8ca2-8999eb8084c8
 
       <div class="col-md-6 col-sm-12 wow fadeInDown">
 
-      <form action="https://formspree.io/kaio.luisfabiano@gmail.com" method="POST">
+      <form action="https://formspree.io/f/xdopzewa" method="POST">
     <input type="text" name="name">
     <input type="email" name="_replyto">
     <input type="submit" value="Send">
