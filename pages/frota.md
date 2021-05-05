@@ -16,29 +16,16 @@ description: 'Confira nossos diferenciais e galeria de imagens com nossos transp
           <div class="col-md-4">
             <!-- boxe imagem tamanho menor -->
             <div class="recent-work-wrap">
-                <img class="img-responsive" src="assets/images/portfolio/recent/item1.png" alt="">
+                <img class="img-responsive" src="assets/images/portfolio/recent/item1_novo.jpeg" alt="">
                 <!-- efeito overlay modal imagem tamanho maior -->
                 <div class="overlay">
                    <div class="recent-work-inner">
-                        <a class="preview center" href="assets/images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
+                        <a class="preview center" href="assets/images/portfolio/full/item1_novo.jpeg" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
                     </div>
                 </div> <!-- final efeito modal imagem tamanho maior -->
             </div> <!-- final boxe imagem tamanho menor -->
           </div> <!-- final configuração tamanho do boxe -->
 
-          <!-- configuração tamanho do boxe -->
-          <div class="col-md-4">
-            <!-- boxe imagem tamanho menor -->
-            <div class="recent-work-wrap">
-                <img class="img-responsive" src="assets/images/portfolio/recent/item2.png" alt="">
-                <!-- efeito overlay modal imagem tamanho maior -->
-                <div class="overlay">
-                   <div class="recent-work-inner">
-                        <a class="preview center" href="assets/images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
-                    </div>
-                </div> <!-- final efeito modal imagem tamanho maior -->
-            </div> <!-- final boxe imagem tamanho menor -->
-          </div> <!-- final configuração tamanho do boxe -->
 
       </div>
 
@@ -46,11 +33,13 @@ description: 'Confira nossos diferenciais e galeria de imagens com nossos transp
       <div class="col-md-4">
         <h2 style="color:#000000;">Descrição</h2>
         <ul>
-          <li> 46 lugares </li>
-          <li> Banheiro </li>
+
+          <li> WC </li>
+          <li> DVD/TV </li>
+          <li> Frigobar </li>
           <li> Ar-condicionado </li>
-          <li>DVD </li>
-          <li>Frigobar</li>
+          <li> 46 Lugares</li>
+          <li> Microfone</li>
         </ul>
 
         <!-- icones descritivos do onibus -->
@@ -73,25 +62,11 @@ description: 'Confira nossos diferenciais e galeria de imagens com nossos transp
             <div class="col-md-4">
               <!-- boxe imagem tamanho menor -->
               <div class="recent-work-wrap">
-                  <img class="img-responsive" src="assets/images/portfolio/recent/item3.png" alt="">
+                  <img class="img-responsive" src="assets/images/portfolio/recent/item33_novo.png" alt="">
                   <!-- efeito overlay modal imagem tamanho maior -->
                   <div class="overlay">
                      <div class="recent-work-inner">
-                          <a class="preview center" href="assets/images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
-                      </div>
-                  </div> <!-- final efeito modal imagem tamanho maior -->
-              </div> <!-- final boxe imagem tamanho menor -->
-            </div> <!-- final configuração tamanho do boxe -->
-
-            <!-- configuração tamanho do boxe -->
-            <div class="col-md-4">
-              <!-- boxe imagem tamanho menor -->
-              <div class="recent-work-wrap">
-                  <img class="img-responsive" src="assets/images/portfolio/recent/item4.png" alt="">
-                  <!-- efeito overlay modal imagem tamanho maior -->
-                  <div class="overlay">
-                     <div class="recent-work-inner">
-                          <a class="preview center" href="assets/images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
+                          <a class="preview center" href="assets/images/portfolio/full/item33_novo.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
                       </div>
                   </div> <!-- final efeito modal imagem tamanho maior -->
               </div> <!-- final boxe imagem tamanho menor -->
@@ -118,31 +93,17 @@ description: 'Confira nossos diferenciais e galeria de imagens com nossos transp
 
         <div class="col-md-12" style="margin:10px 0;">
           <div class="col-md-8">
-            <h2 style="color:#000000;"> Micro ônibus Executivo</h2>
+            <h2 style="color:#000000;"> Micro Executivo</h2>
 
                         <!-- configuração tamanho do boxe -->
                         <div class="col-md-4">
                           <!-- boxe imagem tamanho menor -->
                           <div class="recent-work-wrap">
-                              <img class="img-responsive" src="assets/images/portfolio/recent/item3.png" alt="">
+                              <img class="img-responsive" src="assets/images/portfolio/recent/item3_novo.png" alt="">
                               <!-- efeito overlay modal imagem tamanho maior -->
                               <div class="overlay">
                                  <div class="recent-work-inner">
-                                      <a class="preview center" href="assets/images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
-                                  </div>
-                              </div> <!-- final efeito modal imagem tamanho maior -->
-                          </div> <!-- final boxe imagem tamanho menor -->
-                        </div> <!-- final configuração tamanho do boxe -->
-
-                        <!-- configuração tamanho do boxe -->
-                        <div class="col-md-4">
-                          <!-- boxe imagem tamanho menor -->
-                          <div class="recent-work-wrap">
-                              <img class="img-responsive" src="assets/images/portfolio/recent/item4.png" alt="">
-                              <!-- efeito overlay modal imagem tamanho maior -->
-                              <div class="overlay">
-                                 <div class="recent-work-inner">
-                                      <a class="preview center" href="assets/images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
+                                      <a class="preview center" href="assets/images/portfolio/full/item3_novo.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
                                   </div>
                               </div> <!-- final efeito modal imagem tamanho maior -->
                           </div> <!-- final boxe imagem tamanho menor -->
@@ -154,9 +115,10 @@ description: 'Confira nossos diferenciais e galeria de imagens com nossos transp
           <div class="col-md-4">
             <h2 style="color:#000000;">Descrição</h2>
             <ul>
-              <li> 28 lugares </li>
               <li>Ar Condicionado</li>
-              <li>DVD</li>
+              <li>DVD/TV</li>
+              <li> 28 lugares </li>
+              <li> Microfone </li>
             </ul>
 
             <!-- icones descritivos do onibus -->
@@ -177,25 +139,11 @@ description: 'Confira nossos diferenciais e galeria de imagens com nossos transp
                         <div class="col-md-4">
                           <!-- boxe imagem tamanho menor -->
                           <div class="recent-work-wrap">
-                              <img class="img-responsive" src="assets/images/portfolio/recent/item5.png" alt="">
+                              <img class="img-responsive" src="assets/images/portfolio/recent/item5_novo.png" alt="">
                               <!-- efeito overlay modal imagem tamanho maior -->
                               <div class="overlay">
                                  <div class="recent-work-inner">
-                                      <a class="preview center" href="assets/images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
-                                  </div>
-                              </div> <!-- final efeito modal imagem tamanho maior -->
-                          </div> <!-- final boxe imagem tamanho menor -->
-                        </div> <!-- final configuração tamanho do boxe -->
-
-                        <!-- configuração tamanho do boxe -->
-                        <div class="col-md-4">
-                          <!-- boxe imagem tamanho menor -->
-                          <div class="recent-work-wrap">
-                              <img class="img-responsive" src="assets/images/portfolio/recent/item6.png" alt="">
-                              <!-- efeito overlay modal imagem tamanho maior -->
-                              <div class="overlay">
-                                 <div class="recent-work-inner">
-                                      <a class="preview center" href="assets/images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
+                                      <a class="preview center" href="assets/images/portfolio/full/item5_novo.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
                                   </div>
                               </div> <!-- final efeito modal imagem tamanho maior -->
                           </div> <!-- final boxe imagem tamanho menor -->
@@ -232,25 +180,11 @@ description: 'Confira nossos diferenciais e galeria de imagens com nossos transp
           <div class="col-md-4">
             <!-- boxe imagem tamanho menor -->
             <div class="recent-work-wrap">
-                <img class="img-responsive" src="assets/images/portfolio/recent/item7.png" alt="">
+                <img class="img-responsive" src="assets/images/portfolio/recent/item7_novo.png" alt="">
                 <!-- efeito overlay modal imagem tamanho maior -->
                 <div class="overlay">
                    <div class="recent-work-inner">
-                        <a class="preview center" href="assets/images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
-                    </div>
-                </div> <!-- final efeito modal imagem tamanho maior -->
-            </div> <!-- final boxe imagem tamanho menor -->
-          </div> <!-- final configuração tamanho do boxe -->
-
-          <!-- configuração tamanho do boxe -->
-          <div class="col-md-4">
-            <!-- boxe imagem tamanho menor -->
-            <div class="recent-work-wrap">
-                <img class="img-responsive" src="assets/images/portfolio/recent/item8.png" alt="">
-                <!-- efeito overlay modal imagem tamanho maior -->
-                <div class="overlay">
-                   <div class="recent-work-inner">
-                        <a class="preview center" href="assets/images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
+                        <a class="preview center" href="assets/images/portfolio/full/item7_novo.png" rel="prettyPhoto"><i class="fa fa-plus fa-4x"></i></a>
                     </div>
                 </div> <!-- final efeito modal imagem tamanho maior -->
             </div> <!-- final boxe imagem tamanho menor -->
