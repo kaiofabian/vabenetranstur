@@ -7,7 +7,8 @@ description: 'Confira nossos diferenciais e galeria de imagens com nossos transp
 <div class="row">
 
   <div class="cointaner">
-    <p style="text-align:justify">Com uma frota própria de ônibus modernos a <b style="font-size:18px;">Vabene Transtur</b> vem se destacando como uma das melhores empresa da região. Garantindo mais conforto, pontualidade e segurança através de seus profissionais treinados, atendimento 24h, manutenção rigorosa em seus veículos que assegurar total capacidade técnica mantendo assim segurança em todas as viagens realizadas.</p>
+    <p style="text-align:justify">Com uma frota própria e moderna, a <b>Vabene Transtur</b> vem se destacando como uma das melhores empresas da região. Para garantir mais <b>conforto</b>, <b>pontualidade</b> e <b>segurança</b> a VABENE vem realizando treinamentos periódicos com toda equipe. </p>
+    <p>O atendimento logístico é 24 horas, garantindo um fluxo rápido na demanda dos clientes. Vale destacar o setor de manutenção que com eficiência cumpre com rigor todos os itens necessários  para assegurar total capacidade técnica e segurança em todas as viagens.</p>
     <div class="row" style="margin:10px 0;">
       <div class="col-md-8 sessao-frota">
         <h2 style="color:#000000;"> Ônibus Executivo</h2>
