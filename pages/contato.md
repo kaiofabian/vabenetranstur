@@ -65,6 +65,14 @@ description: 'Entre em contato conosco para melhor atende-los.'
                                 <input name="telefone" type="tel" class="form-control" id="phone" required data-validation-required-message="Telefone/Celular">
                                 <p class="help-block text-danger"></p>
                             </div>
+
+
+                          <label for="Assunto">Assunto:</label>
+                            <select class="form-control" name="Assunto">
+                              <option value="Contato">Contato</option>
+                              <option value="Solicitar orçamento">Solicitar orçamento</option>
+                          </select>
+
                         </div>
                         <div class="col-md-5">
                             <div class="form-group">
