@@ -47,39 +47,64 @@ description: 'Entre em contato conosco para melhor atende-los.'
             <div class="status alert alert-success" style="display: none"></div>
 
 
-             <form name="sentMessage" id="contactForm" method="post" action="mail/contact_me.php" novalidate>
+             <form id="my-form" action="https://formspree.io/f/xeqvkolj" method="POST">
                     <div class="row">
                         <div class="col-md-5 col-sm-offset-1">
                             <div class="form-group">
                                 <label>Nome Completo *</label>
-                                <input type="text" class="form-control" id="name" required data-validation-required-message="Nome Completo">
+                                <input type="text" class="form-control" id="name" name="nome" required data-validation-required-message="Nome Completo">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
                                 <label>Email *</label>
-                                <input type="email" class="form-control" id="email" required data-validation-required-message="Email">
+                                <input type="email" name="email" class="form-control" id="email" required data-validation-required-message="Email">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
                                  <label>Telefone / Celular *</label>
-                                <input type="tel" class="form-control" id="phone" required data-validation-required-message="Telefone/Celular">
+                                <input name="telefone" type="tel" class="form-control" id="phone" required data-validation-required-message="Telefone/Celular">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="col-md-5">
                             <div class="form-group">
                                 <label>Mensagem *</label>
-                                <textarea class="form-control" id="message" required data-validation-required-message="Escreva sua mensagem" rows="8"></textarea>
+                                <textarea class="form-control" id="message"  type="text" name="mensagem" required data-validation-required-message="Escreva sua mensagem" rows="8"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="clearfix"></div>
                         <div class="col-lg-12 text-center">
-                            <div id="success"></div>
-                            <button type="submit" class="btn btn-primary btn-lg">Enviar Mensagem</button>
+                            <p id="my-form-status"></p>
+                            <button type="submit" class="btn btn-primary btn-lg" id="my-form-button">Enviar Mensagem</button>
                         </div>
                     </div>
                 </form>
+
+                <!-- Place this script at the end of the body tag -->
+
+                <script>
+                    var form = document.getElementById("my-form");
+
+                    async function handleSubmit(event) {
+                      event.preventDefault();
+                      var status = document.getElementById("my-form-status");
+                      var data = new FormData(event.target);
+                      fetch(event.target.action, {
+                        method: form.method,
+                        body: data,
+                        headers: {
+                            'Accept': 'application/json'
+                        }
+                      }).then(response => {
+                        status.innerHTML = "Sua mensagem foi enviada com sucesso!!";
+                        form.reset()
+                      }).catch(error => {
+                        status.innerHTML = "Oops! Algum problema no envio da sua mensagem!"
+                      });
+                    }
+                    form.addEventListener("submit", handleSubmit)
+                </script>
 
 
 <br />
