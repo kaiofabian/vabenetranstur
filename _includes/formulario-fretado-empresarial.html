@@ -1,11 +1,11 @@
-     <form id="my-form" action="https://formspree.io/f/xdopzewa" method="POST">
+     <form id="my-form" action="https://formspree.io/f/xeqvkolj" method="POST">
 
         <div class="form-group col-md-12 col-xs-12">
-          <input class="form-control" type="text" name="name" placeholder="Nome completo">
+          <input class="form-control" type="text" name="nome" placeholder="Nome completo">
         </div>
 
         <div class="form-group col-md-6 col-xs-12">
-          <input class="form-control" type="email" name="_replyto" placeholder="Email Corporativo">
+          <input class="form-control" type="email" name="email" placeholder="Email Corporativo">
         </div>
 
         <div class="form-group col-md-6 col-xs-12">
@@ -13,11 +13,11 @@
         </div>
 
         <div class="form-group col-md-6 col-xs-12">
-          <input type="text" class="form-control" name="destino" placeholder="Nome da Empresa">
+          <input type="text" class="form-control" name="Empresa" placeholder="Nome da Empresa">
         </div>
 
         <div class="form-group col-md-6 col-xs-12">
-          <input type="number" class="form-control" name="passageiros" placeholder="Nº Funcionários">
+          <input type="number" class="form-control" name="Passageiros" placeholder="Nº Funcionários">
         </div>
 
         <div class="form-group col-md-12 col-xs-12">
@@ -25,60 +25,34 @@
         </div>
 
         <div class="col-md-12 text-center">
-          <button type="submit" value="Send" class="btn btn-primary btt-orcamento">Solicitar Contato</button>
+          <button type="submit" value="Send" class="btn btn-primary btt-orcamento" id="my-form-button">Solicitar Contato</button>
           <p id="my-form-status"></p>
 
         </div>
 
       </form>
 
+                      <!-- Place this script at the end of the body tag -->
 
+                      <script>
+                          var form = document.getElementById("my-form");
 
-
-      <script>
-        window.addEventListener("DOMContentLoaded", function() {
-
-          // get the form elements defined in your form HTML above
-
-          var form = document.getElementById("my-form");
-          var button = document.getElementById("my-form-button");
-          var status = document.getElementById("my-form-status");
-
-          // Success and Error functions for after the form is submitted
-
-          function success() {
-            form.reset();
-            button.style = "display: none ";
-            status.innerHTML = "Mensagem enviada com sucesso!";
-          }
-
-          function error() {
-            status.innerHTML = "Oops! Ocorreu um problema, tente novamente!";
-          }
-
-          // handle the form submission event
-
-          form.addEventListener("submit", function(ev) {
-            ev.preventDefault();
-            var data = new FormData(form);
-            ajax(form.method, form.action, data, success, error);
-          });
-        });
-
-        // helper function for sending an AJAX request
-
-        function ajax(method, url, data, success, error) {
-          var xhr = new XMLHttpRequest();
-          xhr.open(method, url);
-          xhr.setRequestHeader("Accept", "application/json");
-          xhr.onreadystatechange = function() {
-            if (xhr.readyState !== XMLHttpRequest.DONE) return;
-            if (xhr.status === 200) {
-              success(xhr.response, xhr.responseType);
-            } else {
-              error(xhr.status, xhr.response, xhr.responseType);
-            }
-          };
-          xhr.send(data);
-        }
-      </script>
+                          async function handleSubmit(event) {
+                            event.preventDefault();
+                            var status = document.getElementById("my-form-status");
+                            var data = new FormData(event.target);
+                            fetch(event.target.action, {
+                              method: form.method,
+                              body: data,
+                              headers: {
+                                  'Accept': 'application/json'
+                              }
+                            }).then(response => {
+                              status.innerHTML = "Sua mensagem foi enviada com sucesso!!";
+                              form.reset()
+                            }).catch(error => {
+                              status.innerHTML = "Oops! Algum problema no envio da sua mensagem!"
+                            });
+                          }
+                          form.addEventListener("submit", handleSubmit)
+                      </script>
