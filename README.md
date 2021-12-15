@@ -1,2 +1,2 @@
 # vabenetranstur
-Site dedicated to passenger transport for the company Vabene Transtur.
+Webste dedicated to passenger transport for the company Vabene Transtur.
